@@ -1,7 +1,6 @@
-import { useState, createContext, useEffect } from "react";
+import { useState, useEffect } from "react";
 import Todo from "./components/Todo";
 
-export const UserContext = createContext();
 
 function App() {
   //useState
@@ -33,7 +32,6 @@ function App() {
   
 
   return (
-    <UserContext.Provider value={null}>
       <div>
         <h1></h1>
         <div className="flex items-center mt-7 flex-col">
@@ -60,7 +58,6 @@ function App() {
           ))}
         </div>
       </div>
-    </UserContext.Provider>
   );
 }
 
