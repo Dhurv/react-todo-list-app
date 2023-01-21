@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+
+In this app I use ReactJS to build a Todo List app along with which I use tailwindcss for styling. I implemented the concept of props in react and also hooks in react 
+I used useState and useEffect hook in this project. 
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
